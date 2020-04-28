@@ -1,17 +1,5 @@
-h1 {
-    text-align: center;
-    background-color: cornsilk;
-}
-
-.section {
-    background-color: cornsilk;
-}
-
-.nav {
-    background-color: cornsilk;
-}
-
-#footer {
-    text-align: center;
-    color: crimson;
+footer {
+    border: lightgray;
+    background-color: lightgray;
+    width: auto;
 }

@@ -3,10 +3,68 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Bootstrap-responsive-portfolio</title>
-    <link rel="stylesheet">
 </head>
 
 <body>
-    
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="#">Christian Gomez M.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Index <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+              </li>
+          </ul>
+        </div>
+      </nav>   
+
+        <!--Contact form-->
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Name</label>
+                      <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="name-here">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+
+<!--footer-->
+<footer>
+    <div class="section">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div id="footer" class="col-md-4" style="text-align: center;">
+                <p>04-2020 Christian G.M</p>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+</footer>
+
 </body>
