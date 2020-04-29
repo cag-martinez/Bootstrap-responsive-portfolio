@@ -1,5 +1,7 @@
-footer {
+
+.page {
+    margin: 20px;
+    padding: 20px;
     border: lightgray;
-    background-color: rgb(216, 213, 213);
-    width: auto;
+    background-color: rgb(214, 235, 247);
 }
